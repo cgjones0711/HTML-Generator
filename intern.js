@@ -1,23 +1,29 @@
-class Engineer extends Employee{
-    constructor(school, name, id, email ){
-     super(name, id, email, school)
-    this.school = school;
-    this.name= name;
-    this.id= id;
-    this.email= email;
+class Intern extends Employee{
+    constructor(name, id, email, school ){
+     super(name, id, email)
+        this.school = school;
+    }
+ 
+    getName(){
+     return this.name 
  }
 
+    getId(){
+     return this.id
+ }
 
-getSchool()
+    getEmail(){
+     return this.email 
+ }
 
-getRole(){
-    return "Intern"
+    getSchool(){
+     this.school 
+ }
 
-}
+    getRole(){
+     return "Intern"
+ }
 };
 
-module.exports = {
-    Intern,
-    intern
+module.exports = Intern;
 
-};
