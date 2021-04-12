@@ -11,43 +11,43 @@ return inquirer
     
     {
      type: 'input',
-     name: 'manager-name',
+     name: 'manager',
      message: 'What is the team managers name?',
     },
     
     {
       type: 'input',
-      name: 'manager-id',
+      name: 'managerId',
       message: 'What is the team managers id?',
     },
     {
         type: 'input',
-        name: 'manager-email',
+        name: 'managerEmail',
         message: 'What is the team managers email?',
       },
       {
         type: 'input',
-        name: 'manager-office-number',
+        name: 'managerOfficeNumber',
         message: 'What is the team managers office number?',
       },
       {
         type: 'input',
-        name: 'team add',
+        name: 'teamAdd',
         message: 'What type of team member would you like to add?',
       },
       {
         type: 'input',
-        name: 'engineer-name',
+        name: 'engineer',
         message: 'What is your engineers name?',
       },
       {
         type: 'input',
-        name: 'engineer-id?',
+        name: 'engineerId?',
         message: 'What is you engineers id?',
       },
       {
         type: 'input',
-        name: 'engineer-email',
+        name: 'engineerEmail',
         message: 'What is your engineers email?',
         
       },
@@ -58,34 +58,34 @@ return inquirer
       },
       {
         type: 'input',
-        name: 'team-add2',
+        name: 'teamAdd2',
         message: 'What type of team member would you like to add?',
       },
       {
         type: 'input',
-        name: 'intern-name',
+        name: 'intern',
         message: 'What is your interns name?',
       },
       {
         type: 'input',
-        name: 'intern-id?',
+        name: 'internId?',
         message: 'What is your interns id?',
       },
       {
         type: 'input',
-        name: 'intern-email',
+        name: 'internEmail',
         message: 'What is your interns email?',
         
       },
       {
         type: 'input',
-        name: 'intern-school',
+        name: 'internSchool',
         message: 'Where did you intern go to school?',
         
       },
       {
         type: 'input',
-        name: 'team-add3',
+        name: 'teamAdd3',
         message: 'What type of team member would you like to add?',
       },
   ])
@@ -105,7 +105,7 @@ return inquirer
   float: left;
   width: 33.33%;
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+  height: 300px; 
 }
 
 
@@ -122,22 +122,22 @@ return inquirer
 
 <div class="row">
   <div class="column" style="background-color:#aaa;">
-    <h2>${answers.manager-name}</h2>
-    <p> ID:${answers.manager-id}</p>
-    <p>E-mail:${answers.manager-email}</p>
-    <p>Office Number: ${answers.manager-office-number}</p>
+    <h2>Manager: ${answers.manager}</h2>
+    <p> ID:${answers.managerId}</p>
+    <p>E-mail:${answers.managerEmail}</p>
+    <p>Office Number: ${answers.managerOfficeNumber}</p>
   </div>
   <div class="column" style="background-color:#ccc;">
-  <h2>${answers.engineer-name}</h2>
-  <p> ID:${answers.engineer-id}</p>
-  <p>E-mail:${answers.engineer-email}</p>
+  <h2>Engineer:${answers.engineer}</h2>
+  <p> ID:${answers.engineerId}</p>
+  <p>E-mail:${answers.engineerEmail}</p>
   <p>Github Username: ${answers.github}</p>
   </div>
   <div class="column" style="background-color:#bbb;">
-    <h2>${answers.intern-name}</h2>
-    <p> ID:${answers.intern-id}</p>
-    <p>E-mail:${answers.intern-email}</p>
-    <p>Education: ${answers.intern-school}</p>
+    <h2>Intern:${answers.intern}</h2>
+    <p> ID:${answers.internId}</p>
+    <p>E-mail:${answers.internEmail}</p>
+    <p>Education: ${answers.internSchool}</p>
   </div>
 </div>
 
