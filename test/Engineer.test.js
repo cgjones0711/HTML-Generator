@@ -22,7 +22,7 @@ describe(`Engineer`,() => {
     it ("should return a github when I pass a github to Employee", () => {
             let engineerGitHub = "cgjones0711"
             let newEngineerGithub = new Engineer("","","", engineerGitHub);
-                expect (newEngineerGithub.gitHub()).toBe("cgjones0711");
+                expect (newEngineerGithub.getGithub()).toBe("cgjones0711");
 });
     
     it ("should return a role when I pass a role to Engineer", () => {
