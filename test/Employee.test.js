@@ -1,18 +1,19 @@
-const { describe } = require("yargs");
+const Employee = require("./employee.js");
 
-describe(`Employee` , () => {
+describe(`Employee`,() => {
+it ("should return a name when I pass a name to Employee", () => {
+        let employeeName = ("Clay")
+        
 
-
-
-    it ('should return a neame when I pass a name to Employee' , ( => {
+});
+});
 
 //arrange
 
-        let employeeName = "Clay";
-//act
-        let(newEmployee = new Employee (employeeName);
+//         let (employeeName) = "Clay";
+// //act
+//         let(newEmployee = new Employee (employeeName);
 
-//assert
-        let (newEmployee.name).toBe("Clay")
-    })
-}
+// //assert
+//         let (newEmployee.name).toBe("Clay")
+
