@@ -20,9 +20,9 @@ Github:
 
 https://github.com/cgjones0711/HTML-Generator.git
 
-<iframe width="420" height="315"
-src="https://drive.google.com/drive/my-drive">
-</iframe>
+
+<img src="https://drive.google.com/drive/my-drive"> Click Here to View Video</img>
+
 
 
 <img src="./dist/HTMLphoto.png">
