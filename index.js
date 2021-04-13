@@ -43,7 +43,7 @@ return inquirer
       },
       {
         type: 'input',
-        name: 'engineerId?',
+        name: 'engineerId',
         message: 'What is you engineers id?',
       },
       {
@@ -69,7 +69,7 @@ return inquirer
       },
       {
         type: 'input',
-        name: 'internId?',
+        name: 'internId',
         message: 'What is your interns id?',
       },
       {
@@ -98,26 +98,8 @@ return inquirer
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="./dist/styles.css">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
-  height: 300px; 
-}
-
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-</style>
 </head>
+
 <body>
 <div class="header">
   <h1>My Team</h1>
