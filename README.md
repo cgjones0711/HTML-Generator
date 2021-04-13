@@ -20,9 +20,8 @@ Github:
 
 https://github.com/cgjones0711/HTML-Generator.git
 
-
-<img src="https://drive.google.com/drive/my-drive"> 
-
+## ScreenCastify
+<a href="https://drive.google.com/file/d/1qh5Lni2Q8sUh4oNSuI2KydTvm1uswo2D/view?usp=sharing">Click to Watch Video <a>
 
 
 <img src="./dist/HTMLphoto.png">
