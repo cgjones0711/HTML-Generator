@@ -21,7 +21,7 @@ Github:
 https://github.com/cgjones0711/HTML-Generator.git
 
 
-<img src="https://drive.google.com/drive/my-drive"> Click Here to View Video</img>
+<img src="https://drive.google.com/drive/my-drive"> 
 
 
 
