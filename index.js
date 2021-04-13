@@ -4,6 +4,7 @@ const util =require("util")
 const writeToFile = util.promisify(fs.writeFile);
 
 
+
   
 function questions(){
 return inquirer  
@@ -96,6 +97,7 @@ return inquirer
 `<html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./dist/styles.css">
 <style>
 * {
   box-sizing: border-box;
@@ -117,23 +119,23 @@ return inquirer
 </style>
 </head>
 <body>
-
-<h2> My Team </h2>
-
+<div class="header">
+  <h1>My Team</h1>
+</div>
 <div class="row">
-  <div class="column" style="background-color:#aaa;">
+  <div class="column box1" style="background-color:rgb(245, 10, 10);">
     <h2>Manager: ${answers.manager}</h2>
     <p> ID:${answers.managerId}</p>
     <p>E-mail:${answers.managerEmail}</p>
     <p>Office Number: ${answers.managerOfficeNumber}</p>
   </div>
-  <div class="column" style="background-color:#ccc;">
+  <div class="column box2" style="background-color:rgb(245, 10, 10);">
   <h2>Engineer:${answers.engineer}</h2>
   <p> ID:${answers.engineerId}</p>
   <p>E-mail:${answers.engineerEmail}</p>
   <p>Github Username: ${answers.github}</p>
   </div>
-  <div class="column" style="background-color:#bbb;">
+  <div class="column box3" style="background-color:rgb(245, 10, 10);">
     <h2>Intern:${answers.intern}</h2>
     <p> ID:${answers.internId}</p>
     <p>E-mail:${answers.internEmail}</p>

@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+
+  }
+  .header {
+    padding: 10px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+  } 
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; 
+    border:10mm
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+ 
+  h2{
+      background-color: aliceblue;
+      padding: 30px
+  }
